@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "projects",
   "info": {
-    "name": "project"
+    "name": "project",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,10 +13,6 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
-    },
-    "content": {
-      "type": "richtext",
       "required": true
     },
     "image": {
@@ -35,6 +32,11 @@
     },
     "excerpt": {
       "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [],
       "required": true
     }
   }
