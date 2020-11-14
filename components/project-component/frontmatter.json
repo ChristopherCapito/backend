@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_project_component_frontmatters",
+  "info": {
+    "name": "frontmatter",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionNumber": {
+      "type": "integer",
+      "required": true
+    },
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionDescription": {
+      "type": "text",
+      "required": true
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "techstack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project-component.techstack"
+    }
+  }
+}

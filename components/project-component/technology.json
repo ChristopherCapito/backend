@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_project_component_technologies",
+  "info": {
+    "name": "technology",
+    "icon": "lightbulb",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "specificTech": {
+      "type": "enumeration",
+      "enum": [
+        "javascript",
+        "react",
+        "css",
+        "html",
+        "node",
+        "nextJS",
+        "Strapi"
+      ]
+    }
+  }
+}

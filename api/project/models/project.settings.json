@@ -36,7 +36,9 @@
     },
     "content": {
       "type": "dynamiczone",
-      "components": [],
+      "components": [
+        "project-component.frontmatter"
+      ],
       "required": true
     }
   }
