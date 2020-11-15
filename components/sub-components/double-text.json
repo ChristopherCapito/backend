@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sub_components_double_texts",
+  "info": {
+    "name": "doubleText",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textLeft": {
+      "type": "text"
+    },
+    "textRight": {
+      "type": "text"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionNumber": {
+      "type": "integer"
+    }
+  }
+}

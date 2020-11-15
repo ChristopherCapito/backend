@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sub_components_techstacks",
+  "info": {
+    "name": "Techstack",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "technology": {
+      "type": "enumeration",
+      "enum": [
+        "javascript",
+        "html",
+        "css",
+        "react",
+        "node",
+        "next",
+        "strapi",
+        "tailwindcss",
+        "bootstrap",
+        "express"
+      ]
+    }
+  }
+}

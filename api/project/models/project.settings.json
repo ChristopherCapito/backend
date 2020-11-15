@@ -34,12 +34,19 @@
       "type": "text",
       "required": true
     },
-    "content": {
+    "Frontmatter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project-component.frontmatter"
+    },
+    "Content": {
       "type": "dynamiczone",
       "components": [
-        "project-component.frontmatter"
-      ],
-      "required": true
+        "sub-components.full-width-media",
+        "sub-components.image-and-text",
+        "sub-components.double-media",
+        "sub-components.double-text"
+      ]
     }
   }
 }

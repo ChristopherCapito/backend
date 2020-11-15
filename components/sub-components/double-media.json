@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sub_components_double_medias",
+  "info": {
+    "name": "DoubleMedia",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "mediaLeft": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "mediaRight": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

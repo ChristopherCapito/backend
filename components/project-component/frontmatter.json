@@ -19,21 +19,10 @@
       "type": "text",
       "required": true
     },
-    "backgroundImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": true
-    },
-    "techstack": {
+    "Techstack": {
       "type": "component",
       "repeatable": false,
-      "component": "project-component.techstack"
+      "component": "sub-components.techstack"
     }
   }
 }
