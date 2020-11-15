@@ -21,7 +21,7 @@
     },
     "Techstack": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "sub-components.techstack"
     }
   }
