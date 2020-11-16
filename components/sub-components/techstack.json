@@ -2,7 +2,8 @@
   "collectionName": "components_sub_components_techstacks",
   "info": {
     "name": "Techstack",
-    "icon": "angle-double-down"
+    "icon": "angle-double-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,15 +11,14 @@
       "type": "enumeration",
       "enum": [
         "javascript",
-        "html",
-        "css",
+        "html5",
+        "css3",
         "react",
         "node",
         "next",
         "strapi",
         "tailwindcss",
-        "bootstrap",
-        "express"
+        "bootstrap"
       ]
     }
   }

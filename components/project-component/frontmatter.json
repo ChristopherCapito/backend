@@ -23,6 +23,17 @@
       "type": "component",
       "repeatable": true,
       "component": "sub-components.techstack"
+    },
+    "frontmatterBackgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
