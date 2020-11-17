@@ -15,7 +15,6 @@
       "via": "related",
       "allowedTypes": [
         "images",
-        "files",
         "videos"
       ],
       "plugin": "upload",
@@ -28,6 +27,9 @@
       "type": "integer"
     },
     "sectionTitle": {
+      "type": "string"
+    },
+    "altText": {
       "type": "string"
     }
   }

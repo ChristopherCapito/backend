@@ -2,7 +2,8 @@
   "collectionName": "components_sub_components_double_medias",
   "info": {
     "name": "DoubleMedia",
-    "icon": "photo-video"
+    "icon": "photo-video",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,6 @@
       "via": "related",
       "allowedTypes": [
         "images",
-        "files",
         "videos"
       ],
       "plugin": "upload",
@@ -22,11 +22,16 @@
       "via": "related",
       "allowedTypes": [
         "images",
-        "files",
         "videos"
       ],
       "plugin": "upload",
       "required": false
+    },
+    "altTextLeft": {
+      "type": "string"
+    },
+    "altTextRight": {
+      "type": "string"
     }
   }
 }
