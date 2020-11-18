@@ -26,12 +26,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "altTextLeft": {
-      "type": "string"
-    },
-    "altTextRight": {
-      "type": "string"
     }
   }
 }

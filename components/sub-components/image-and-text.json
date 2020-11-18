@@ -28,9 +28,6 @@
     },
     "sectionTitle": {
       "type": "string"
-    },
-    "altText": {
-      "type": "string"
     }
   }
 }

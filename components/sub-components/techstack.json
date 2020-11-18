@@ -17,7 +17,7 @@
         "node",
         "next",
         "strapi",
-        "tailwindcss",
+        "tailwind",
         "bootstrap"
       ]
     }

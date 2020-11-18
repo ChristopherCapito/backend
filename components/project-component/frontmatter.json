@@ -34,9 +34,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "altText": {
-      "type": "string"
     }
   }
 }
