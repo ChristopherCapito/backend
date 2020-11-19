@@ -47,6 +47,11 @@
         "sub-components.double-media",
         "sub-components.double-text"
       ]
+    },
+    "number": {
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
 }
