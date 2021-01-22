@@ -48,11 +48,6 @@
         "sub-components.double-text"
       ]
     },
-    "number": {
-      "type": "integer",
-      "required": true,
-      "unique": true
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
