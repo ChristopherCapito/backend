@@ -37,6 +37,9 @@
     },
     "ghLink": {
       "type": "string"
+    },
+    "titleLinkText": {
+      "type": "string"
     }
   }
 }
